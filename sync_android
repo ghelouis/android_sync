@@ -41,7 +41,7 @@ sync_photos() {
 
 sync_shared_directory() {
   echo -e "$blue====> Syncing shared_directory$endcol"
-  adb-sync --delete "$shared_directory" "$phone_shared_directory"
+  adb-sync --delete "$shared_dir" "$phone_shared_directory"
 }
 
 menu
